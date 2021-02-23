@@ -1,0 +1,26 @@
+.home-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 1rem;
+  z-index: 100;
+  margin: 20px;
+}
+
+@media screen and (min-width: 320px) {
+  .home-row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .home-row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

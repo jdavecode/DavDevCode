@@ -1,0 +1,17 @@
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.subtotal button {
+  display: block;
+  background: rgba(207, 137, 8, 0.753);
+  width: 150px;
+  cursor: pointer;
+}
+.subtotal button:hover {
+  background: rgba(230, 153, 12, 0.753);
+
+}
